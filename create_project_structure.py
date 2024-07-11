@@ -51,7 +51,7 @@ if __name__ == "__main__":
     
     # Define the directories and files for the project structure
     directories = ["data", "results", "raw", "figures"]
-    files = ["README.md", "requirements.txt"]
+    files = ["README.md", "requirements.txt", ".gitignore"]
     
     # Call the function to create the project structure
     create_project_structure(target_location, project_name, directories, files)
