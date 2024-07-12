@@ -51,13 +51,23 @@ if __name__ == "__main__":
     project_name = sys.argv[2]
     
     # Define the directories and files for the project structure
-    directories = ["data", "results", "raw", "figures"]
+    directories = ["data", "results", "raw", "figures", "scripts", "nbs" ]
     files = ["README.md", "requirements.txt", ".gitignore"]
     
     # Define contents for specific files
     file_contents = {
-        ".gitignore": "# Ignore Python compiled files\n*.pyc\n__pycache__/\n._qarto.yml",
-        "README.md": "# Project Title\n\nA brief description of your project."
+        ".gitignore": "# Ignore Python compiled files\n*.pyc\n__pycache__/\n_quarto.yml",
+        "README.md": """# Project Title\n
+        A brief description of your project. 
+        ## Project Structure Usage
+        - The `raw` directory should be used for all the input datatasets that you scrape or borrow from other projects.
+        - The `data` directory should be used for the strcutured datatsets that will be used on your project or publication. 
+        - The `nbs` is for the jupyter or qmd notebooks that you use on your projects. 
+        - The `figures` dir  is for publication quality figures.
+        - The `scripts` dir is for any stand alone scripts required during the projects that might be instantiated across or independent of the notebooks (e.g. update real time dataset)          
+        ##
+        
+        """
     }
     
     # Call the function to create the project structure
