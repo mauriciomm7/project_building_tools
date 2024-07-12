@@ -36,7 +36,7 @@ def create_project_structure(target_location, project_name, directories, files, 
         paths_file.write(f"import os\n\n")
         paths_file.write(f"rep_dir = os.path.abspath(os.path.dirname(__file__))\n\n")
         for directory in directories:
-            paths_file.write(f"{directory}_dir = os.path.join(rep_dir, '{directory}')\n")
+            paths_file.write(f"{directory}_dir = os.path.join(rep_dir, '{directory}\\')\n")
         paths_file.write(f"#####################################\n\n " )
         paths_file.write(f"# Add your Latex paths here")
         
