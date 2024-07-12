@@ -15,3 +15,7 @@ MONDAY 2023.08.14
 
 TUESDAY 2023.08.15
 - [ ] REVIEW GitHub Actions scheduler https://dev.to/anshuman_bhardwaj/free-cron-jobs-with-github-actions-31d6
+
+FRIDAY 2024.07.12 
+
+- [ ] ADD QMD files structure
