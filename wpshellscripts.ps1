@@ -4,6 +4,13 @@
 $global:newjet = "C:\gitprojects\project_building_tools\create_project_structure.py"
 $global:gitprojects = "C:\gitprojects"
 
+$global:newjet = "C:\gitprojects\project_building_tools\create_project_structure@0.1.py"
+$global:desktop = "C:\Users\mauricmm\iCloudDrive\#Desktop"
+$global:gitprojects = "C:\gitprojects"
+$uioadmin = "C:\Program Files\UiO Temporary Administrator\2.0.2\temp-admin-user.exe"
+$exportenvs = "C:\gitprojects\project_building_tools\_scripts\export_envs.ps1"
+$cloudgit = "C:\Users\mauricmm\iCloudDrive\cloudgit"
+
 
 function touch {
     <#
