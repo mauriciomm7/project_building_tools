@@ -1,0 +1,27 @@
+/* Example custom CSS */
+body {
+    background-color: #282C34; /* Dark background for the editor */
+    color: #ABB2BF;           /* Text color */
+}
+
+.plot-container {
+    background-color: #1E1E1E; /* Background for plot */
+    color: #CCCCCC;           /* Text color in plot */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.plot-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #61AFEF; /* Light blue color for titles */
+}
+
+.plot-axis {
+    font-size: 14px;
+    color: #98C379; /* Green color for axis labels */
+}
+
+.plot-legend {
+    font-size: 14px;
+    color: #E5C07B; /* Yellow color for legends */
+}
