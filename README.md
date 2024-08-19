@@ -2,6 +2,7 @@
 Handy scripts for automating the creation of project directories, README files, and other essential structures. Boost your productivity with these project-building tools.
 
 ## TODO
+- [ ] UPDATE the project constructor so that creates links for latex presentations too.
 - [ ] REVIEW how to convert *.ipynb to .md files to be deployed in main website: https://github.com/matteocourthoud/Data-Science-Python/blob/main/convert.sh
 
 - [ ] ADD base path cosntrcutor for latex files
