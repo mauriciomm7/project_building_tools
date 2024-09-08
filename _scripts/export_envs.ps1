@@ -5,7 +5,8 @@ $envDetails = @(
     @{ Name = "dataviz"; Path = "C:\Users\mauricmm\Anaconda3\envs\dataviz" },
     @{ Name = "llms"; Path = "C:\Users\mauricmm\Anaconda3\envs\llms" },
     @{ Name = "blacksmith"; Path = "C:\Users\mauricmm\Anaconda3\envs\blacksmith" },
-    @{ Name = "condarstudio"; Path = "C:\Users\mauricmm\Anaconda3\envs\condarstudio" }
+    @{ Name = "condarstudio"; Path = "C:\Users\mauricmm\Anaconda3\envs\condarstudio" },
+    @{ Name = "mathviz"; Path = "C:\Users\mauricmm\Anaconda3\envs\mathviz" }
 
 )
 $gitRepoPath = "C:\gitprojects\project_building_tools\_envs"
@@ -55,4 +56,4 @@ Write-Host "Script execution completed."
 
 # Change back to original dir 
 Write-Host "All done! You are back here.:D"
-cd $originaldir
+Set-Location $originaldir
