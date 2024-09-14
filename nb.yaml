@@ -1,0 +1,20 @@
+python:
+  linting:
+    enabled: true
+    linting_tool: pylint
+  formatting:
+    autopep8: true
+
+jupyter:
+  cell:
+    default_language: python
+  theme:
+    dark_mode: true
+  output:
+    font: JetBrains Mono
+    size: 12
+  tables:
+    border: '1px solid #ccc'
+    padding: '4px'
+  widgets:
+    default_style: classic
