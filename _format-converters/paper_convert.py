@@ -7,6 +7,7 @@ import subprocess
 import os
 
 
+
 # FUNCTION to run the Pandoc command with custom variables
 def convert_to_pdf(input_file, output_file, bib=None, logo=None):
     """
