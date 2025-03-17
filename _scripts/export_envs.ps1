@@ -3,7 +3,7 @@ $envDetails = @(
     @{ Name = "base"; Path = "C:\Users\mauricmm\Anaconda3" },
     @{ Name = "scifipy"; Path = "C:\Users\mauricmm\Anaconda3\envs\scifipy" },
     @{ Name = "dataviz"; Path = "C:\Users\mauricmm\Anaconda3\envs\dataviz" },
-    @{ Name = "llms"; Path = "C:\Users\mauricmm\Anaconda3\envs\llms" },
+    @{ Name = "llm"; Path = "C:\Users\mauricmm\Anaconda3\envs\llm" },
     @{ Name = "blacksmith"; Path = "C:\Users\mauricmm\Anaconda3\envs\blacksmith" },
     @{ Name = "condarstudio"; Path = "C:\Users\mauricmm\Anaconda3\envs\condarstudio" },
     @{ Name = "mathviz"; Path = "C:\Users\mauricmm\Anaconda3\envs\mathviz" }
