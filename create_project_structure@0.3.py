@@ -90,18 +90,7 @@ def create_project_structure(
             "- The `scripts` directory is for stand-alone scripts supporting the project.\n"
             "- The `utils` directory is for module-like utilities for the project.\n"
         ),
-        
-        ".vscode/settings.json": (
-            '{\n'
-            '  "files.exclude": {\n'
-            '    "**/*.Rproj": true,\n'
-            '    "**/.RData": true,\n'
-            '    "**/.Rhistory": true,\n'
-            '    "**/.Ruserdata": true,\n'
-            '    "**/Rplot*.png": true\n'
-            '  }\n'
-            '}'
-        ),
+        ".vscode/settings.json": "",
         "scripts/__init__.py": "",
         "utils/__init__.py": "",
         
