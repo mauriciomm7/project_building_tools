@@ -20,13 +20,19 @@ Handy scripts for automating the creation of project directories, README files, 
 
 ## Log History
 
+
+Date:  søndag 3. august 2025 11:03:07200
+
+- [X] ADDED `.gitatributes` to project constructor.
+- [X] ADDED `_pyprojects\*` new subproject for making notebook templates.
+
 Date:   Sat Aug 2 18:26:02 2025 +0200
 
-- [X] ADDED `.vscode/settings.json" to project constructor.
+- [X] ADDED `.vscode/settings.json` to project constructor.
 
 Date:   Tue Apr 22 22:14:10 2025 -0400
 
-- [ ] ADDED `cbatchinstall` for installing packages across envs 
+- [ ] ADDED `cbatchinstall` for installing packages across envs
 
 Date:
 
@@ -41,10 +47,6 @@ tex_tab_dir = os.path.join(tex_base, "tables")
 
 - [X] CREATE SHELL script that exports Conda ENVs YML everytime they are modified.
 - [X] CREATE md to pdf format converter _format_converters
-
-
-
-
 
 Date: Fri May 31 16:18:55 2024 +0200
 
